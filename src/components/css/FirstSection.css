@@ -1,0 +1,34 @@
+.app_first_section_wrapper {
+  background: #fcc302;
+  display: flex;
+  align-items: center;
+  padding: 6em 4em;
+  color: #ffffff;
+}
+.left_section {
+  flex: 1 1 0%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+}
+.left_section h1 {
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+.right_section {
+  flex: 1 1 0%;
+}
+.app_contact_btn {
+  padding: 0.7em 2em;
+  margin-right: 1em;
+  border-radius: 5px;
+  background-color: #00bec9;
+  border: none;
+}
+.app_services_btn {
+  padding: 0.7em 2em;
+  border-radius: 7px;
+  color: #ffffff;
+  background: transparent;
+  border: 2px solid #ffffff;
+}

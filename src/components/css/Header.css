@@ -1,0 +1,23 @@
+.app_header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #daac00;
+  padding: 1em 4em;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.app_search_bar .search_input {
+  background-color: #fcc302;
+  color: #ffffff;
+  padding: 0.5em;
+  filter: drop-shadow(7.512px 14.127px 9px rgba(74, 74, 74, 0.1));
+  border: none;
+  border-radius: 5px;
+}
+
+.app_search_bar .search_input:focus {
+  border: 2px solid rgb(54, 54, 146);
+  outline: none;
+}

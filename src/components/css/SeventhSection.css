@@ -1,0 +1,30 @@
+.app_seventh_sec_wrapper {
+  position: relative;
+}
+.image_seventh_wrapper img {
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
+  height: 400px;
+}
+.app_inner_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  inset: 0;
+  background-color: rgba(252, 195, 2, 0.8392156862745098);
+  opacity: 0.839;
+}
+
+.top_wrapper {
+  display: flex;
+  column-gap: 5em;
+}
+
+.data_container ul {
+
+  font-size: 38px;
+  color: #ffffff;
+  font-weight: 700;
+}

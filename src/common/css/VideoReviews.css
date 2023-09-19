@@ -1,0 +1,33 @@
+.app_video_reviews_section_wrapper {
+  display: flex;
+  align-items: center;
+  padding: 6em 5em;
+  column-gap: 1em;
+}
+
+.app_right_part {
+  flex: 1 1 0%;
+}
+
+.app_right_part h1 {
+  color: #313243;
+  font-weight: 600;
+}
+
+.app_right_part p {
+  color: #313243;
+  font-weight: 400;
+}
+
+.app_left_part {
+  flex: 1 1 0%;
+}
+
+.app_btn {
+  padding: 0.7em 2em;
+  border-radius: 7px;
+  color: #ffffff;
+  background: #fcc302;
+  border: 2px solid #ffffff;
+  margin-top: 1em;
+}

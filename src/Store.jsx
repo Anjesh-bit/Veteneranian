@@ -1,13 +1,16 @@
 import { createStore, combineReducers, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
 import ImageSliderReducers from "./reducers/ImageSliderReducers";
+import { ModalReducers } from "./reducers/ModalReducers";
+
 const reducers = combineReducers({
   imageSliderData: ImageSliderReducers,
+  videoPlayerData: ModalReducers,
 });
 
 const initialState = {
-  position: 0,
-  offset: 0,
+  imageSliderData: { offset: 0, position: 0 },
+  videoPlayerData: { open: false, videoType: "", videoId: "" },
 };
 
 const middleware = [thunk];

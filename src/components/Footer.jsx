@@ -10,7 +10,9 @@ const Footer = () => {
             {section.about && section.about.length > 0 && (
               <ul>
                 {section.about.map((item, subIndex) => (
-                  <li key={subIndex}>{item.data}</li>
+                  <li key={subIndex}>
+                    <small>{item.data}</small>
+                  </li>
                 ))}
               </ul>
             )}
@@ -19,7 +21,9 @@ const Footer = () => {
             {section.services && section.services.length > 0 && (
               <ul>
                 {section.services.map((item, subIndex) => (
-                  <li key={subIndex}>{item.data}</li>
+                  <li key={subIndex}>
+                    <small>{item.data}</small>
+                  </li>
                 ))}
               </ul>
             )}
@@ -28,6 +32,17 @@ const Footer = () => {
             {section.iconsNewsLetter && section.iconsNewsLetter.length > 0 && (
               <ul>
                 {section.iconsNewsLetter.map((item, subIndex) => (
+                  <li key={subIndex}>
+                    <small>{item.data}</small>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+          <div className="app_icons">
+            {section.icons && section.icons.length > 0 && (
+              <ul>
+                {section.icons.map((item, subIndex) => (
                   <li key={subIndex}>{item.data}</li>
                 ))}
               </ul>

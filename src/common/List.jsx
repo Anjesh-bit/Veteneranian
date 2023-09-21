@@ -1,6 +1,6 @@
 import "./css/List.css";
 
-const List = () => {
+const List = (props) => {
   return (
     <div className="list_wrapper">
       <ul>

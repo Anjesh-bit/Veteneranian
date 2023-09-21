@@ -17,6 +17,7 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import DirectionsRunIcon from "@mui/icons-material/DirectionsRun";
 import VaccinesIcon from "@mui/icons-material/Vaccines";
+import Button from "../common/Button";
 
 //css data
 const color = {
@@ -27,21 +28,25 @@ const fontSize = {
   fontSize: "90px",
 };
 
-const newsLetter = {};
+const newsLetter = {
+  background: "#daac00",
+  border: "none",
+  padding: "0.7em 3em",
+};
 
 //data
 const vetDogData = [{ vet: dog1 }, { vet: dog3 }, { vet: dog1 }];
 
 const vetDoctorData = [
   {
-    vet: vetDoctor1,
+    vet: vet1,
     select: true,
   },
   {
-    vet: vetDoctor2,
+    vet: vet2,
   },
   {
-    vet: vetDoctor3,
+    vet: vet3,
   },
 ];
 
@@ -65,7 +70,7 @@ const vetData = [
 
 const vetSliderData = [
   {
-    image: vetDoctor1,
+    image: vet1,
     name: "Imma Watson",
     description: "Doctor",
     socails: [
@@ -88,7 +93,7 @@ const vetSliderData = [
     ],
   },
   {
-    image: vetDoctor2,
+    image: vet2,
     name: "Josh Mario",
     description: "Administartor",
     socails: [
@@ -111,7 +116,7 @@ const vetSliderData = [
     ],
   },
   {
-    image: vetDoctor3,
+    image: vet3,
     name: "Eva mario",
     description: "Doctor",
     socails: [
@@ -295,6 +300,7 @@ const vetSeventhSecData = [
 const footerData = [
   {
     about: [
+      { data: <h2>About</h2> },
       { data: "History" },
       { data: "Our Teams" },
       { data: "Brand Guidliness" },
@@ -304,6 +310,7 @@ const footerData = [
   },
   {
     services: [
+      { data: <h2>Services</h2> },
       { data: "How to order" },
       { data: "Our Products" },
       { data: "Order Status" },
@@ -313,9 +320,12 @@ const footerData = [
   },
   {
     iconsNewsLetter: [
+      { data: <h2>Title</h2> },
       { data: "This is vet" },
       { data: "Our services are world wide" },
       { data: <input type="text" style={newsLetter} /> },
+    ],
+    icons: [
       { data: <InstagramIcon /> },
       { data: <FacebookIcon /> },
       { data: <TwitterIcon /> },
@@ -323,6 +333,34 @@ const footerData = [
     ],
   },
 ];
+
+const postsData = [
+  {
+    picture: vet1,
+    header: "As a vet and lover of dog",
+    date: "February 9,2020",
+    paragraph:
+      "vet doctors are great in exploring dogs vet doctors are great in exploring dogs",
+    button: <Button btnText="Read more" btnClassName="posts_btn" />,
+  },
+  {
+    picture: vet2,
+    header: "As a vet and lover of dog",
+    date: "February 10,2020",
+    paragraph:
+      "vet doctors are great in exploring dogs vet doctors are great in exploring dogs",
+    button: <Button btnText="Read more" btnClassName="posts_btn" />,
+  },
+  {
+    picture: vet3,
+    header: "As a vet and lover of dog",
+    date: "February 11,2020",
+    paragraph:
+      "vet doctors are great in exploring dogs vet doctors are great in exploring dogs",
+    button: <Button btnText="Read more" btnClassName="posts_btn" />,
+  },
+];
+
 export {
   vetDogData,
   vetDoctorData,
@@ -330,4 +368,5 @@ export {
   vetSliderData,
   vetSeventhSecData,
   footerData,
+  postsData,
 };

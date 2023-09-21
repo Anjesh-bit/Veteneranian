@@ -6,8 +6,10 @@ import FourthSection from "../components/FourthSection";
 import FifthSection from "../components/FifthSection";
 import SixthSection from "../components/SixthSection";
 import SeventhSection from "../components/SeventhSection";
+import EigthSection from "../components/EigthSection";
 import Footer from "../components/Footer";
 
+//This is the main page of the site
 const VeterianAppPage = () => {
   return (
     <div className="app_main_page">
@@ -19,6 +21,7 @@ const VeterianAppPage = () => {
       <FifthSection />
       <SixthSection />
       <SeventhSection />
+      <EigthSection />
       <Footer />
     </div>
   );

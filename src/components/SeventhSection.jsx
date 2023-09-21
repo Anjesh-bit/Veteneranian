@@ -16,17 +16,15 @@ const SeventhSection = () => {
         <img src={image?.vet} alt="vetdoctor" />
       </div>
       <div className="app_inner_wrapper">
-        <div className="top_wrapper">
-          {vetSeventhSecData?.map((data) => (
-            <div className="data_container">
-              <ul>
-                <li>{data.icon}</li>
-                <li>{data.count}</li>
-                <li>{data.title}</li>
-              </ul>
-            </div>
-          ))}
-        </div>
+        {vetSeventhSecData?.map((data, index) => (
+          <div className="data_container" key={`${index} + 4`}>
+            <ul>
+              <li>{data.icon}</li>
+              <li>{data.count}</li>
+              <li>{data.title}</li>
+            </ul>
+          </div>
+        ))}
       </div>
     </div>
   );

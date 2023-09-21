@@ -1,6 +1,5 @@
 .app_picture_reviews__section_wrapper {
-  color: #313243;
-  padding: 2em 1em;
+  padding: 2em 10em;
   background-color: #fcc302;
   color: #ffffff;
 }
@@ -27,16 +26,16 @@
 .picture_reviews_buttom_section .image_wrapper {
   display: flex;
   column-gap: 1em;
-  justify-content: center;
 }
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 1 1 0%;
 }
 .container .image_container {
-  height: 340px;
-  width: 300px;
+  height: 300px;
+  width: 100%;
 }
 
 .image_container img {
@@ -69,3 +68,40 @@
   cursor: pointer;
 }
 
+/* media query for screen less than 1200px */
+@media only screen and (max-width: 1200px) {
+  .app_picture_reviews__section_wrapper {
+    padding: 4em 5em;
+  }
+}
+
+/* media query for less than 992px */
+@media only screen and (max-width: 992px) {
+  .app_picture_reviews__section_wrapper {
+    padding: 4em 3em;
+  }
+  .buy_now_btn:hover {
+    cursor: none;
+  }
+}
+
+/* media query for less than 768px */
+@media only screen and (max-width: 768px) {
+  .picture_reviews_buttom_section .image_wrapper {
+    flex-direction: column;
+    row-gap: 1em;
+  }
+  .container .image_container {
+    height: 500px;
+  }
+}
+
+/* media query for less than 576px */
+@media only screen and (max-width: 576px) {
+  .app_picture_reviews__section_wrapper {
+    padding: 4em 1.5em;
+  }
+  .container .image_container {
+    height: 400px;
+  }
+}

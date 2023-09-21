@@ -3,3 +3,6 @@
   align-items: center;
   column-gap: 2em;
 }
+.list_wrapper ul li:hover {
+  cursor: pointer;
+}

@@ -2,7 +2,7 @@
   background: #fcc302;
   display: flex;
   align-items: center;
-  padding: 6em 4em;
+  padding: 6em 10em;
   color: #ffffff;
 }
 .left_section {
@@ -17,6 +17,7 @@
 }
 .right_section {
   flex: 1 1 0%;
+  text-align: end;
 }
 .app_contact_btn {
   padding: 0.7em 2em;
@@ -25,10 +26,44 @@
   background-color: #00bec9;
   border: none;
 }
+.app_contact_btn:hover,
+.app_services_btn:hover {
+  cursor: pointer;
+}
 .app_services_btn {
   padding: 0.7em 2em;
   border-radius: 7px;
   color: #ffffff;
   background: transparent;
   border: 2px solid #ffffff;
+}
+
+/* media query for screen less than 1200px */
+@media only screen and (max-width: 1200px) {
+  .app_first_section_wrapper {
+    padding: 4em 5em;
+  }
+}
+
+/* media query for less than 992px */
+@media only screen and (max-width: 992px) {
+  .app_first_section_wrapper {
+    padding: 4em 3em;
+  }
+  .app_contact_btn:hover,
+  .app_services_btn:hover {
+    cursor: none;
+  }
+}
+/* media query for less than 768px */
+@media only screen and (max-width: 768px) {
+  .app_first_section_wrapper {
+    flex-direction: column;
+  }
+}
+/* media query for less than 576px */
+@media only screen and (max-width: 576px) {
+  .app_first_section_wrapper {
+    padding: 4em 1.5em;
+  }
 }

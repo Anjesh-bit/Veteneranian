@@ -29,6 +29,7 @@ const VideoReviewSection = (props) => {
   // const [open, setOpen] = useState(false);
 
   const dispatch = useDispatch();
+  //useSelector access the reducer state and gives us updated state
   const { open, videoType, videoId } = useSelector(
     (state) => state.videoPlayerData
   );
@@ -38,6 +39,7 @@ const VideoReviewSection = (props) => {
 
   const onHandleClose = (e) => {
     e.preventDefault();
+    //dispatch an actions to a reducer
     dispatch(ModalCloseActions(false));
     // setOpen(false);
   };

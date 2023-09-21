@@ -60,7 +60,11 @@ const PictureSliderSection = () => {
             {vetSliderData?.map((sliderData, indexi) => (
               <div className="main_container" key={indexi + 5}>
                 <div className="image_slider_container">
-                  <img src={sliderData.image} alt={`vetimages+${indexi}`} />
+                  <img
+                    src={sliderData.image}
+                    alt={`vetimages+${indexi}`}
+                    loading="lazy"
+                  />
                 </div>
                 <div className="description_section">
                   <h2>{sliderData.name}</h2>

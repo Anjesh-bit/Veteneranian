@@ -9,7 +9,7 @@ import SeventhSection from "../components/SeventhSection";
 import EigthSection from "../components/EigthSection";
 import Footer from "../components/Footer";
 
-//This is the main page of the site
+//This is the main page of the site which merges all the components
 const VeterianAppPage = () => {
   return (
     <div className="app_main_page">

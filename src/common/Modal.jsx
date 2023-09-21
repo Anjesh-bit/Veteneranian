@@ -11,6 +11,7 @@ const VideoPlayerModal = (props) => {
 
   return (
     <>
+    {/* modal state updated through reducer */}
       <Modal
         open={isOpen}
         onClose={handleOnCloseModal}

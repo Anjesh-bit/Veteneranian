@@ -12,7 +12,7 @@ const EigthSection = () => {
         {postsData?.map((data, index) => (
           <div className="posts_container" key={index + 2}>
             <div className="post_image_container">
-              <img src={data.picture} alt={`vet+${index}`} />
+              <img src={data.picture} alt={`vet+${index}`} loading="lazy" />
             </div>
             <div className="post_list_container">
               <ul>

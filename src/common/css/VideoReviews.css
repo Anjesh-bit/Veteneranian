@@ -9,6 +9,7 @@
   flex: 1 1 0%;
 }
 
+/* direct child h1, p, Button selector */
 .app_right_part > h1,
 .app_right_part > p,
 .app_right_part > Button {

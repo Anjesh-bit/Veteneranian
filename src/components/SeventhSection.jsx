@@ -13,7 +13,7 @@ const SeventhSection = () => {
   return (
     <div className="app_seventh_sec_wrapper">
       <div className="image_seventh_wrapper">
-        <img src={image?.vet} alt="vetdoctor" />
+        <img src={image?.vet} alt="vetdoctor" loading="lazy" />
       </div>
       <div className="app_inner_wrapper">
         {vetSeventhSecData?.map((data, index) => (

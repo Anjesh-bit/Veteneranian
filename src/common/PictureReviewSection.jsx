@@ -11,10 +11,15 @@ const PictureReviewSection = (props) => {
       </div>
       <div className="picture_reviews_buttom_section ">
         <div className="image_wrapper">
+          {/* map thrugh all the data which returns new array without initial array modification */}
           {data?.map((vetData, index) => (
             <div className="container" key={index}>
               <div className="image_container">
-                <img src={vetData.vet} alt={"vetImages" + index} />
+                <img
+                  src={vetData.vet}
+                  alt={"vetImages" + index}
+                  loading="lazy"
+                />
               </div>
               <div className="margin">
                 <h2>{vetData.data}</h2>

@@ -1,7 +1,16 @@
 import Button from "../common/Button";
 import "./css/FirstSection.css";
+import { useState, useEffect } from "react";
+import { vetDoctorData } from "../data/Data";
 
 const FirstSection = () => {
+  const [image, setImage] = useState(null);
+
+  useEffect(() => {
+    const image = vetDoctorData.find((img) => img.select);
+    setImage(image);
+  }, []); // run only once when the component mounts
+
   return (
     <div className="app_first_section_wrapper">
       <div className="left_section">
@@ -16,7 +25,9 @@ const FirstSection = () => {
           <Button btnText="Services" btnClassName="app_services_btn" />
         </div>
       </div>
-      <div className="right_section">This contains Images</div>
+      <div className="right_section">
+        <img src={image?.vet} alt="vetdoctor" loading="lazy" />
+      </div>
     </div>
   );
 };

@@ -1,0 +1,16 @@
+.video_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #fcc302;
+  position: relative;
+}
+
+.close_icon {
+  cursor: pointer;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  color: #ffffff;
+}

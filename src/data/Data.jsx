@@ -28,11 +28,19 @@ const fontSize = {
   fontSize: "90px",
 };
 
-const newsLetter = {
-  background: "#daac00",
-  border: "none",
-  padding: "0.7em 3em",
-};
+// .input-container {
+//     position: relative;
+//     width: 300px; /* Adjust the width as needed */
+// }
+
+// .material-icons {
+//     position: absolute;
+//     top: 50%;
+//     left: 10px; /* Adjust the left position to your liking */
+//     transform: translateY(-50%);
+//     font-size: 24px; /* Adjust the font size as needed */
+//     color: #555; /* Adjust the icon color as needed */
+// }
 
 //data
 const vetDogData = [{ vet: dog1 }, { vet: dog3 }, { vet: dog1 }];
@@ -323,7 +331,14 @@ const footerData = [
       { data: <h2>Title</h2> },
       { data: "This is vet" },
       { data: "Our services are world wide" },
-      { data: <input type="text" style={newsLetter} /> },
+      {
+        data: (
+          <div className="main_container_ico">
+            <i class="material-icons">email</i>
+            <input type="text" className="news_letter" />
+          </div>
+        ),
+      },
     ],
     icons: [
       { data: <InstagramIcon /> },

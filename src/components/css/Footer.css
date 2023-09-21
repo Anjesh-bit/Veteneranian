@@ -32,6 +32,22 @@
   cursor: pointer;
 }
 
+.main_container_ico {
+  position: relative;
+}
+
+.material-icons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  color: rgb(54, 54, 146);
+}
+.main_container_ico input {
+  background: #daac00;
+  border: none;
+  padding: 0.1em 2em;
+}
 /* media query for screen less than 1200px */
 @media only screen and (max-width: 1200px) {
   .app_footer {

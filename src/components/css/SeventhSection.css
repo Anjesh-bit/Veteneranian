@@ -1,12 +1,14 @@
 .app_seventh_sec_wrapper {
   position: relative;
 }
+
 .image_seventh_wrapper img {
   width: 100%;
   object-fit: cover;
   object-position: left;
   height: 400px;
 }
+
 .app_inner_wrapper {
   display: flex;
   align-items: center;
@@ -27,6 +29,7 @@
   background-color: rgba(219, 178, 54, 0.839);
 }
 
+/* selects the ul element under data_container class */
 .data_container ul {
   font-size: 38px;
   text-align: center;

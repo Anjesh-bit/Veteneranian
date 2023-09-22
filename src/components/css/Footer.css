@@ -1,3 +1,4 @@
+/* display flex on parent element to horizontally arrange elements */
 .app_footer {
   display: flex;
   flex-wrap: wrap;
@@ -11,6 +12,8 @@
 .app_icons_newsletter {
   text-align: right;
 }
+
+/* select all the ul element of respective class */
 .app_icons_newsletter ul,
 .app_about ul,
 .app_services ul {
@@ -26,6 +29,7 @@
   padding-top: 1em;
 }
 
+/* cursor pointer  excluding last child of dom */
 .app_icons ul li,
 .app_services ul li:hover:not(:first-child),
 .app_about ul li:hover:not(:first-child) {
@@ -43,11 +47,13 @@
   right: 0;
   color: rgb(54, 54, 146);
 }
+
 .main_container_ico input {
   background: #daac00;
   border: none;
   padding: 0.1em 2em;
 }
+
 /* media query for screen less than 1200px */
 @media only screen and (max-width: 1200px) {
   .app_footer {

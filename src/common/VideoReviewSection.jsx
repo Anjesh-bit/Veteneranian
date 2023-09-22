@@ -9,21 +9,24 @@ import "./css/VideoReviews.css";
 
 const VideoReviewSection = (props) => {
   const { className, textAlign, shape } = props;
+
   const opts = {
     width: "100%",
     height: "350px",
   };
+
   const ytStyle = {
     border: "5px solid #fcc302",
     borderRadius: "5px",
     opacity: 0.9,
   };
+
   const icStyle = {
     color: "#ffffff",
     cursor: "pointer",
   };
-  //Either use useState or Redux
 
+  //Either use useState or Redux
   // const [type, setType] = useState("initial");
   // const [id, setId] = useState("initial");
   // const [open, setOpen] = useState(false);
@@ -36,7 +39,6 @@ const VideoReviewSection = (props) => {
 
   // const cachedType = useMemo(() => type, [type]);
   // const cachedId = useMemo(() => id, [id]);
-
   const onHandleClose = (e) => {
     e.preventDefault();
     //dispatch an actions to a reducer

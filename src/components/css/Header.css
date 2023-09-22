@@ -22,6 +22,7 @@
   margin-bottom: 4px;
   background-color: #ffffff;
 }
+
 .app_search_bar .search_input {
   background-color: #fcc302;
   color: #ffffff;
@@ -62,9 +63,11 @@
     cursor: none;
   }
 }
+
 /* media query for less than 768px */
 @media only screen and (max-width: 768px) {
 }
+
 /* media query for less than 576px */
 @media only screen and (max-width: 576px) {
   .app_header_wrapper {

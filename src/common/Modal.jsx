@@ -1,6 +1,7 @@
 import Modal from "@mui/material/Modal";
 
 const VideoPlayerModal = (props) => {
+  // props received for open model and handle the Close
   const {
     isOpen,
     handleOnCloseModal,

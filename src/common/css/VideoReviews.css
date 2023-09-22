@@ -49,8 +49,6 @@
   left: -2.5em;
   z-index: -1;
   bottom: 0;
-  height: 100%;
-  width: 100%;
   height: 150px;
   width: 150px;
   background-color: #fcc302;
@@ -78,6 +76,12 @@
   .app_video_reviews_section_wrapper {
     flex-direction: column;
     row-gap: 1em;
+  }
+  .app_left_part {
+    width: 100%;
+  }
+  .shape {
+    display: none;
   }
 }
 

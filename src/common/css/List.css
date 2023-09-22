@@ -1,8 +1,11 @@
+/* align horizontally the ul elements and align items to vertically align them in container */
 .list_wrapper ul {
   display: flex;
   align-items: center;
   column-gap: 2em;
 }
+
+/* on hover the list elements to pointer */
 .list_wrapper ul li:hover {
   cursor: pointer;
 }

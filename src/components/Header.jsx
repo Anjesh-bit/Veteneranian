@@ -1,7 +1,6 @@
 import List from "../common/List";
 import InputField from "../common/InputField";
 import "./css/Header.css";
-import { useRef } from "react";
 
 const Header = () => {
   const onHandleSearch = (event) => {

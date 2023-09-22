@@ -1,8 +1,5 @@
 import "./css/PictureSliderSection.css";
 import { vetSliderData } from "../data/Data";
-import useImageSlider from "../hooks/ImageSliderHook";
-import ChevronRightRoundedIcon from "@mui/icons-material/ChevronRightRounded";
-import ChevronLeftRoundedIcon from "@mui/icons-material/ChevronLeftRounded";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

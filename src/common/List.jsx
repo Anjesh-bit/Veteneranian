@@ -1,5 +1,6 @@
 import "./css/List.css";
 
+// list component
 const List = (props) => {
   return (
     <div className="list_wrapper">

@@ -5,6 +5,7 @@ import {
   ON_IMAGE_OFF_SUCCESS,
 } from "../constants/ImageSliderConstant";
 
+// reducers take the initial state, actions as parameter and updates the new state based on dispatch
 const ImageSliderReducers = (state = [], actions) => {
   switch (actions.type) {
     case ON_IMAGE_OFF_SUCCESS:

@@ -5,10 +5,6 @@ import vet3 from "../assets/Vet3.jpg";
 import dog1 from "../assets/Dog1.jpg";
 import dog3 from "../assets/Dog3.jpg";
 
-import vetDoctor1 from "../assets/VetDoctor1.jpg";
-import vetDoctor2 from "../assets/VetDoctor2.jpg";
-import vetDoctor3 from "../assets/VetDoctor3.jpg";
-
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
@@ -27,20 +23,6 @@ const color = {
 const fontSize = {
   fontSize: "90px",
 };
-
-// .input-container {
-//     position: relative;
-//     width: 300px; /* Adjust the width as needed */
-// }
-
-// .material-icons {
-//     position: absolute;
-//     top: 50%;
-//     left: 10px; /* Adjust the left position to your liking */
-//     transform: translateY(-50%);
-//     font-size: 24px; /* Adjust the font size as needed */
-//     color: #555; /* Adjust the icon color as needed */
-// }
 
 //data
 const vetDogData = [{ vet: dog1 }, { vet: dog3 }, { vet: dog1 }];

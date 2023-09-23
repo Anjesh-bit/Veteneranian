@@ -316,7 +316,7 @@ const footerData = [
       {
         data: (
           <div className="main_container_ico">
-            <i class="material-icons">email</i>
+            <i className="material-icons">email</i>
             <input type="text" className="news_letter" />
           </div>
         ),

@@ -31,6 +31,25 @@
   position: relative;
 }
 
+.yt_container {
+  position: relative;
+  background-color: #fcc302;
+  opacity: 0.9;
+}
+
+.yt_container .ic_btn {
+  background-color: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+
+.yt_container .ic_btn:hover {
+  background-color: #ffffff;
+}
+
 .app_btn {
   padding: 0.7em 2em;
   border-radius: 7px;

@@ -21,8 +21,10 @@ const ModalReducers = (state = {}, action) => {
         videoType: "",
         videoId: "",
       };
+
     case ON_MODAL_FAIL:
       return { ...state, open: false, error: action.payload };
+
     default:
       return { ...state };
   }

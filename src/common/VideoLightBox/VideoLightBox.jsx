@@ -3,6 +3,7 @@ import ReactPlayer from "react-player";
 import VideoPlayerModal from "../Modal";
 import CloseIcon from "@mui/icons-material/Close";
 import "./VideoLightBox.css";
+
 const VideoLightBox = (props) => {
   const { isOpen, onHandleClose, videoType, videId } = props;
   const opts = {

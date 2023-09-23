@@ -107,10 +107,8 @@ const VideoReviewSection = (props) => {
             )}
           </IconButton>
         </div>
-
         <OpenInFullIcon
           onClick={onHandleClick("youtube", "iy74I_CSV5U")}
-          btnText="Expand"
           style={icStyle}
         />
         <VideoLightBox

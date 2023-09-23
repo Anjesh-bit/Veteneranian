@@ -10,3 +10,22 @@
 ul {
   list-style: none;
 }
+
+/* media query for xxxl screen */
+@media only screen and (min-width: 1600px) {
+  .main_container .image_slider_container {
+    height: 50vh !important;
+  }
+
+  .container .image_container {
+    height: 50vh !important;
+  }
+
+  .right_section {
+    height: 50vh !important;
+  }
+
+  .post_image_container {
+    height: 50vh !important;
+  }
+}

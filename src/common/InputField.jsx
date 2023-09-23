@@ -1,3 +1,4 @@
+//common InputField for reusable components
 const InputField = (props) => {
   const {
     inputType,

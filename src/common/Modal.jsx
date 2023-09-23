@@ -1,5 +1,6 @@
 import Modal from "@mui/material/Modal";
 
+//videoPlayerModal which open when expand button is clicked for expanded view
 const VideoPlayerModal = (props) => {
   // props received for open model and handle the Close
   const {

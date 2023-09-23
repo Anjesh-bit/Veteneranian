@@ -11,6 +11,10 @@ const VideoLightBox = (props) => {
     width: 1200,
   };
 
+  /* used the Youtube package for youtube videos and ReactPlayer for vimeo and html5
+could have used <iframe> but package uses <iframe> under the hood
+  */
+
   return (
     <div className="app_video_light_box_container">
       <VideoPlayerModal isOpen={isOpen} handleOnCloseModal={onHandleClose}>

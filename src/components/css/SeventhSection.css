@@ -26,6 +26,7 @@
   display: flex;
   justify-content: center;
   flex: 1 1 0%;
+  padding: 1em;
   background-color: rgba(219, 178, 54, 0.839);
 }
 

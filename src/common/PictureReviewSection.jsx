@@ -30,7 +30,7 @@ const PictureReviewSection = (props) => {
                   <p style={{ fontWeight: 600, fontSize: "1.3em" }}>
                     <del>100$</del> 80$
                   </p>
-                  <Button btnClassName={className} btnText="Buy Now" />
+                  <Button btnText="Buy Now" btnClassName={className} />
                 </>
               )}
             </div>

@@ -9,6 +9,7 @@ const useImageSlider = (initialvals, data) => {
       setIndex((prev) => prev + 3);
     }
   };
+  
   const handlePrev = (event) => {
     event.preventDefault();
     setIndex((prev) => Math.max(prev - 3, 0));

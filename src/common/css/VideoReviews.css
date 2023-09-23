@@ -96,9 +96,11 @@
     flex-direction: column;
     row-gap: 1em;
   }
+  
   .app_left_part {
     width: 100%;
   }
+  
   .shape {
     display: none;
   }

@@ -2,11 +2,15 @@
   position: relative;
 }
 
+.image_seventh_wrapper {
+  height: 400px;
+}
+
 .image_seventh_wrapper img {
   width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: left;
-  height: 400px;
 }
 
 .app_inner_wrapper {
@@ -61,8 +65,8 @@
   .data_container {
     width: 100%;
   }
-  .image_seventh_wrapper img {
-    height: 800px;
+  .image_seventh_wrapper {
+    height: 1000px;
   }
 }
 
